@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Geek+</title>
+	<link rel="stylesheet" type="text/css" href="../css/principal.css">
+	<link rel="stylesheet" type="text/css" href="../css/slide.css">
+	<link rel="shortcut icon" href="../img/icon/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="../img/icon/favicon.ico" type="image/x-icon">
+	<script src="../JavaScript/jquery.js"></script>
+	<script src="../JavaScript/jCycle.js"></script>
+	<script>
+		$(function(){
+			$('#slide ul').cycle({
+				fx: 'cover',
+				speed: 5000
+			});
+		})
+		
+		function bemVindo()
+		{
+			alert("Bem Vindo(a) a GeekPlus!");
+		}
+		bemVindo();
+		function required()
+		{
+			var empt = document.form1.nome.value;
+			var empt1 = document.form1.sobrenome.value;
+			var empt2 = document.form1.sugestao.value;
+			if (empt == ""){
+				alert("Preencha todos os valores!");
+				return false;
+			}else if(empt1 == ""){
+				alert("Preencha todos os valores!");
+				return false;
+			}else if(empt2 == ""){
+				alert("Preencha todos os valores!");
+				return false;
+			}
+			else {
+				alert('Sugestão enviada com sucesso!');
+				return true; 
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<nav class="barra">
+		<a href="principal.html"><img id="logo" src="../img/logoSite.png" alt="Logo Geek+"></a>
+		<b><a id="historiaTI" href="tecnologia.html">Historia TI</a></b>
+		<b><a id="historiaHQ" href="nerd.html">HQ's</a></b>
+	</nav>
+
+	<main>
+
+		<div class="container">
+			
+			<h2 class="title">5 Ferramentas Open Source</h2>
+
+			<div id="slide">
+				<ul>
+					<li class="li">
+						<div class="imagem2" style="background-image: url('../img/gimp.jpeg');"></div>
+					</li>
+					<li class="li">
+						<div class="imagem2" style="background-image: url('../img/dia.jpeg');"></div>
+					</li>
+					<li class="li">
+						<div class="imagem2" style="background-image: url('../img/libreOffice.jpeg');"></div>
+					</li>
+					<li class="li">
+						<div class="imagem2" style="background-image: url('../img/vlcMediaPlayer.jpeg');"></div>
+					</li>
+					<li class="li">
+						<div class="imagem2" style="background-image: url('../img/thunderBird.jpeg');"></div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="title">
+				<h2>Noticias TI</h2>
+			</div>
+
+			<div class="noticia">
+				<div class="imagem" style="background-image: url('https://img.ibxk.com.br/2019/11/06/06112319575113.jpg?w=704');"></div>
+				<div class="texto">
+					<h4>Huawei lança plataforma mobile na América Latina para competir com Google</h4>
+					<a href="https://m.tecmundo.com.br/software/147494-huawei-lanca-plataforma-mobile-america-latina-concorrer-google.htm" class="btn btn-detail" target="_blank">Saiba mais</a>
+				</div>
+			</div>
+			<div class="noticia">
+				<div class="imagem" style="background-image: url('https://dominioautomacao.inf.br/wp-content/uploads/2018/10/Gest%C3%A3o-de-TI.jpg');"></div>
+				<div class="texto">
+					<h4>Empresas de tecnologia abrem mais de 700 vagas de emprego no Brasil</h4>
+					<a href="https://olhardigital.com.br/noticia/empresas-de-tecnologia-abrem-mais-de-700-vagas-de-emprego/92566" class="btn btn-detail" target="_blank">Saiba mais</a>
+				</div>
+			</div>
+			<div class="noticia">
+				<div class="imagem" style="background-image: url('https://i2.wp.com/www.telesintese.com.br/wp-content/uploads/2019/10/deputado-Andre-Figueiredo_2.jpg?w=936');"></div>
+				<div class="texto">
+					<h4>PL da lei de informática é aprovado em comissão e será votado no plenário da câmara</h4>
+					<a href="http://www.telesintese.com.br/pl-da-lei-de-informatica-e-aprovado-em-comissao-e-sera-votado-no-plenario-da-camara/" class="btn btn-detail" target="_blank">Saiba mais</a>
+				</div>
+			</div>
+			<div class="noticia">
+				<div class="imagem" style="background-image: url('https://s2.glbimg.com/UhwVUX7ZEGDFtiIfcbPKR1l0BWU=/0x0:1071x508/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/A/8/SfuPIBTqCQjBYq5DTWsg/microsoft.jpg');"></div>
+				<div class="texto">
+					<h4>Microsoft do Japão implanta fim de semana de três dias e produtividade aumenta 40%</h4>
+					<a href="https://g1.globo.com/economia/concursos-e-emprego/noticia/2019/11/04/microsoft-do-japao-implanta-fim-de-semana-de-tres-dias-e-produtividade-aumenta-40percent.ghtml" class="btn btn-detail" target="_blank">Saiba mais</a>
+				</div>
+			</div>
+
+			<div class="title">
+				<h2>Noticias Nerd</h2>
+			</div>
+			
+			<div class="noticia">
+				<div class="imagem" style="background-image: url('https://s2.glbimg.com/vwtcy1kQhoTHXs555dZGDCCHmwk=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/4/F/MaZelER9a4zng4AiNERw/diablo-4-tudo-sobre-blizzcon-2019-enredo-lilith.jpg');"></div>
+				<div class="texto">
+					<a href="video.html"><h4 id="diablo">Acesse o trailer oficial de Diablo 4</h4></a>
+					<a href="video.html" class="btn btn-detail" target="_blank">Saiba mais</a>
+				</div>
+			</div>
+			<div class="noticia">
+				<div class="imagem" style="background-image: url('https://cdn3-www.comingsoon.net/assets/uploads/2019/06/doctor-sleep.jpg');"></div>
+				<div class="texto">
+					<h4>Confira a crítica de Doutor Sono, continuação de "O Iluminado"</h4>
+					<a href="https://estacaonerd.com/critica-doutor-sono/" class="btn btn-detail" target="_blank">Saiba mais</a>
+				</div>
+			</div>
+			<div class="noticia">
+				<div class="imagem" style="background-image: url('https://cdn.cinepop.com.br/2019/10/vidainvisivel_1-750x380.jpg');"></div>
+				<div class="texto">
+					<h4>Fãs criam petição para Fernanda Montenegro atuar em Animais Fantásticos 3</h4>
+					<a href="https://www.nerdsite.com.br/2019/11/fas-criam-peticao-para-fernanda-montenegro-atuar-em-animais-fantasticos-3/" class="btn btn-detail" target="_blank">Saiba mais</a>
+				</div>
+			</div>
+		</div>
+	</main><br><br>
+
+	<div class="formulario">
+		<div class="formulario2">
+			<h3>Envie uma sugestão</h3>
+			<form name="form1" onsubmit="required()">
+				<input type="text" name="nome" placeholder="Nome">
+				<input type="text" name="sobrenome" placeholder="Sobrenome">
+				<input type="text" name="sugestao" placeholder="Sugestão"><br><br>
+				<input type="submit" name="enviar" onsubmit="sucesso()">
+			</form>
+		</div>
+	</div>
+
+	<footer>
+		<div class="rodape">
+			<br><br>
+			<p>Site focado no compartilhamento de informações sobre o mundo Geek</p>
+			<p>Todos os direitos reservados</p><br>
+			<a href="https://www.instagram.com/geekplus_oficial/" target="_blank"><img class="paragrafoFooter" src="../img/logoInstagram.png" alt="Icone Instagram"></a>
+		</div>
+
+	</footer>
+</body>
+</html>

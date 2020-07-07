@@ -1,0 +1,27 @@
+/*Estilização dos slides da página principal*/
+#slide{
+	align-items: center;
+	width: 60%;
+	height: 300px;
+	margin: 0 auto;
+	z-index: 0;
+	margin-bottom: 3%;
+}
+#slide ul{
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	padding: 0;
+	z-index: 0;
+	list-style: none;
+}
+#slide .li{
+	width: 100%;
+	height: 300px;
+}
+.container #slide .imagem2{
+	width: 100%;
+	height: 300px;
+	border-radius: 3%;
+	background-size: 100% 100%;
+}

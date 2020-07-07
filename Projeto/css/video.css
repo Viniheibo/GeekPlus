@@ -1,0 +1,79 @@
+/*Estilização de tags gerais*/
+*{
+	background-color: #262626; 
+	font-family: Arial;
+	color: #fff;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #75DE77;
+}
+/*Estilização da barra de navegação*/
+.barra{
+	overflow: hidden;
+	background-color: black;
+	position: sticky;
+	width: 100%;
+	top: 0;
+	height: 110px;
+	z-index: 1;
+}
+.barra a{
+	position: absolute;
+	color: #75DE77;
+	font-size: 1.5em;
+	background-color: transparent;
+}
+.barra a:hover{
+	color: #fff;
+}
+#historiaTI{
+	top: 5px;
+	right: 125px;
+}
+#historiaHQ{
+	top: 5px;
+	right: 50px;
+}
+#logo{
+	position: absolute;
+	width: 90px;
+	left: 10px;
+	background-color: transparent;
+}
+/*Estilização do conteúdo principal da página*/
+.video{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.video iframe{
+	border: 0;
+	display: flex;
+	width: 80%;
+	height: 500px;
+	margin-bottom: 7%;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.container .texto{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.container .texto p{
+	margin-bottom: 1%;
+}
+
+/*Estilização do rodapé*/
+.rodape{
+	height: 150px;
+	text-align: center;
+}
+.rodape img{
+	height: 15%;
+}

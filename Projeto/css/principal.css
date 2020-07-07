@@ -1,0 +1,142 @@
+/*Estilização de tags gerais*/
+*{
+	background-color: #262626; 
+	font-family: Arial;
+	color: #fff;
+	margin: 0;
+}
+main{
+	position: relative;
+	top: 30px;
+	padding-bottom: 10%;
+}
+a{
+	text-decoration: none;
+	color: #75DE77;
+}
+p{	
+	color: #fff;
+	padding-bottom: 2%;
+}
+footer{
+	height: 175px;
+}
+
+/*Estilização da barra de navegação*/
+.barra{
+	overflow: hidden;
+	background-color: black;
+	position: sticky;
+	width: 100%;
+	top: 0;
+	height: 110px;
+	z-index: 5;
+}
+.barra a{
+	position: absolute;
+	color: #75DE77;
+	font-size: 1.5em;
+	background-color: transparent;
+}
+.barra a:hover{
+	color: #fff;
+}
+#historiaTI{
+	top: 5px;
+	right: 125px;
+}
+#historiaHQ{
+	top: 5px;
+	right: 50px;
+}
+#logo{
+	position: absolute;
+	width: 90px;
+	left: 10px;
+	background-color: transparent;
+}
+/*Estilização do conteúdo principal da página*/
+.container {
+	width: 80%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	z-index: 0;
+}
+.container h2{
+	color: #75DE77;
+}
+.container .title {
+	width: 100%;
+	padding-bottom: 2%;
+	display: block;
+}
+.container .noticia {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #75DE77;
+}
+.container .noticia .imagem {
+	width: 40%;
+	height: 250px;
+	border-radius: 3%;
+	text-align: center;
+	background-size: 100% 100%;
+}
+.container .noticia .texto {
+	width: 60%;
+	padding: 0 5%;
+	z-index: 2;
+}
+.container .noticia .texto h4 {
+	text-align: justify;
+	color: #fff;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+	padding-bottom: 5%;
+}
+#diablo:hover{
+	color: #75DE77;
+}
+/*Estilização do botão saiba mais*/
+.btn {
+	padding: 10px;
+	border: 1px solid #75DE77;
+	border-radius: 5px;
+	transition: background-color 300ms ease-in-out;
+}
+.btn:hover {
+	background-color: #75DE77;
+	color: #000;
+}
+
+/*Estilização do rodapé*/	
+.rodape{
+	height: 100%;
+	text-align: center;
+}
+.rodape img{
+	height: 13%;
+}
+
+/*Estilização do Formulário*/
+
+h3{
+	color: #75DE77;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+.formulario{
+	width: 100%;
+	height: 125px;
+	padding-bottom: 3%;
+	display: flex;
+	justify-content: center;
+}
+.formulario .formulario2{
+	width: 50%;
+	height: 125px;
+	text-align: center;
+	border: 2px solid;
+}
